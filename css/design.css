@@ -1,0 +1,474 @@
+body{
+    font-size: 16px;
+    font-family: 'aldo', sans-serif;
+    /* background: #233D58; */
+    /* background: purple; */
+    position:relative;
+}
+
+header{
+    width: 100%;
+    height: 35px;
+    background: #233D58;
+    position: relative;
+}
+header h1  {
+    display: none;
+}
+header nav .ioMenuMovil{
+    height: 25px;
+    width: 120px;
+    cursor: pointer;
+    line-height: 40px;
+    margin: 0px 0px 0px 10px;
+    padding-top: 5px;
+    /* display: none; */
+}
+header nav .ioMenuMovil img{
+    height: 100%;
+}
+
+header nav #card_menu{
+    display: none;
+    position: relative;
+    width:50%;
+    /* height: 500px; */
+    background: white;
+    top: -30px;
+    left: 0px;
+    border-right: 3px solid #AFAEAE;
+    z-index: 999;
+    padding-bottom: 50px;
+}
+
+/* header nav #card_menu .ioMenuMovil{
+    height: 100%;
+    background: red;
+} */
+
+header nav #card_menu #logo_menu{
+    /* background: red; */
+    height: 200px;
+    width: 80%;
+    margin: 30px 0px;
+    margin-left: 10%;
+    margin-bottom: 50px;
+    
+}
+
+header nav #card_menu #logo_menu img{
+    width: 100%;
+}
+
+header nav #card_menu ul{
+    /* background: red; */
+    margin-top: -20px;
+}
+
+header nav #card_menu ul li{
+    /*quita el punto de la lista*/
+    list-style: none;
+    font-size: 1.5em;
+    line-height: 37px;
+}
+
+/*decorar enlaces quitarle el subrayado azul entre otros*/
+header nav #card_menu ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+header #prev_section,
+header #next_section{
+    width: 25px;
+    height: 25px;
+    /* background: red; */
+    cursor: pointer;
+    /* overflow: hidden; */
+    margin: 5px;
+    position: absolute;
+    top:0px;
+    /*si aparece una barra horizontal esta la oculta*/
+    overflow: hidden;
+}
+header #prev_section{
+    right: 35px;
+}
+
+header #next_section{
+    right: 5px;
+}
+
+header #prev_section img,
+header #next_section img{
+    width: 60%;
+    top: 00px;
+    left: 4px;
+    position: relative;
+}
+
+header #next_section img{
+    transform: rotate(180deg)
+}
+
+#slider{
+    width: 100%;
+    position: relative;
+    height: 600px;
+    
+    /* border: 2px solid red; */
+}
+
+#slider section.slide{
+    position: absolute;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+}
+
+#slider #home{   
+    background: #233D58;
+    font-family: 'aller';
+    position: relative;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+#slider #home .mainanimation{
+    /* background: red; */
+    width: 80%;
+    margin-left: 10%;
+    min-height: 300px;
+    position: absolute;
+}
+
+#slider #home .mainlogo{
+    background: none;
+    position: relative;
+    /* background: green; */
+    width: 60vw;
+    margin-left: 20vw;
+    min-height: 430px;
+}
+
+#slider #home .mainlogo h2{
+    font-size: 1.2em;
+    padding-top: 80px;
+    color: white;
+    font-weight: lighter;
+}
+
+#slider #home .mainlogo strong{
+    font-size: 2em;
+    font-family: 'aldo';
+    display: block;
+}
+
+#slider #home .mainlogo figure,
+#slider #home .mainlogo figure img{
+    width: 100%;
+    margin: 0px;
+}
+
+/* aboutme */
+
+#slider #aboutme{
+    /* height: 400px; */
+    background: #f1f1f1;
+}
+
+#slider #aboutme .beta{
+    background: none;
+    position: relative;
+    /* background: green; */
+    width: 60vw;
+    margin-left: 20vw;
+    min-height: 430px;
+}
+
+#slider #aboutme .beta h2{
+    font-size: 1.2em;
+    padding-top: 80px;
+    color: rgb(255, 0, 0);
+    font-weight: lighter;
+}
+
+#slider #aboutme .beta figure,
+#slider #aboutme .beta figure img{
+    width: 110%;
+    margin: 0px;
+}
+
+/* skills */
+
+#slider #skills{
+    /* height: 300px; */
+    background: #f1f1f1;
+}
+
+#slider #skills .beta{
+    background: none;
+    position: relative;
+    /* background: green; */
+    width: 60vw;
+    margin-left: 20vw;
+    min-height: 430px;
+}
+
+#slider #skills .beta h2{
+    font-size: 1.2em;
+    padding-top: 80px;
+    color: rgb(255, 0, 0);
+    font-weight: lighter;
+}
+
+#slider #skills .beta figure,
+#slider #skills .beta figure img{
+    width: 110%;
+    margin: 0px;
+}
+
+
+/* portfolio */
+
+#slider #portfolio{
+    /* height: 200px; */
+    background: #f1f1f1;
+}
+
+#slider #portfolio .beta{
+    background: none;
+    position: relative;
+    /* background: green; */
+    width: 60vw;
+    margin-left: 20vw;
+    min-height: 430px;
+}
+
+#slider #portfolio .beta h2{
+    font-size: 1.2em;
+    padding-top: 80px;
+    color: rgb(255, 0, 0);
+    font-weight: lighter;
+}
+
+#slider #portfolio .beta figure,
+#slider #portfolio .beta figure img{
+    width: 110%;
+    margin: 0px;
+}
+
+
+/* blog */
+
+#slider #blog{
+    /* height:100px; */
+    background: #f1f1f1;
+}
+
+#slider #blog .beta{
+    background: none;
+    position: relative;
+    /* background: green; */
+    width: 60vw;
+    margin-left: 20vw;
+    min-height: 430px;
+}
+
+#slider #blog .beta h2{
+    font-size: 1.2em;
+    padding-top: 80px;
+    color: rgb(255, 0, 0);
+    font-weight: lighter;
+}
+
+#slider #blog .beta figure,
+#slider #blog .beta figure img{
+    width: 110%;
+    margin: 0px;
+}
+
+
+/*-------------------------------*/
+
+footer{
+    width: 100%;
+    background: black;
+    color: white;
+    text-align: center;
+    z-index: 90;
+    height: 150px;
+    position: fixed;
+    bottom: 0px;
+}
+footer .rrss{
+    margin-top: 70px;
+    width: 100%;
+    height: 40px;
+    background: white;
+}
+
+footer .rrss a{
+    width: 40px;
+    height: 40px;
+    background: green;
+    display: inline-block;
+}
+
+footer p{
+    font-size: 0.8em;
+    font-weight: lighter;
+    font-family: 'aller';
+}
+
+footer a img{
+    width: 3%;
+    height: 3%;
+}
+
+@media screen and (min-width: 480px){
+    #slider #home .mainlogo{
+        width: 270px;
+        left: 50%;
+        margin-left: -135px;
+    }
+    
+    #slider #home .mainlogo h2{
+        font-size: 1.4em;
+    }
+}
+
+@media screen and (min-width: 600px){
+    body{
+        background: orange;
+    }
+}
+
+@media screen and (min-width: 767px){
+    body{
+        background: #e3e6e4;
+    }
+
+    header{
+        height: 50px;
+    }
+
+    header h1{
+        display: inline-block;
+        width: 20%;
+        /* background: red; */
+        margin: 0px;
+        height: 50px;
+        margin-left: 80px;
+        line-height: 50px;
+        min-width: 200px;
+    }
+
+    header h1 > *{
+        display: inline-block;
+        vertical-align: middle;
+        text-decoration: none;
+        color: white;
+        font-size: 0.7em;
+        margin: 0px 3px;
+    }
+
+    header h1 figure{
+        height:40px;
+        width: 40px;
+        margin:0px;
+        /* background: green; */
+    }
+
+    header h1 figure img{
+        width:100%;
+    }
+
+    header nav{
+        display: inline-block;
+        vertical-align: middle;
+        width: 62%;
+        position: relative;
+        /* background:red; */
+    }
+
+    header nav #showMenu,
+    header nav #hideMenu{
+        display: none;
+    }
+
+    header nav #card_menu{
+        display: inline-block;
+        border: none;
+        background: none;
+        position: relative;
+        top: 0px;
+        width: 100%;
+        /* background: green; */
+        text-align: right;
+        padding-bottom: 0px;
+    }
+
+    header nav #card_menu figure{
+        display: none;
+    }
+
+    header nav #card_menu ul{
+        padding: 0px;
+        margin: 0px;        
+        margin-top: -15px;
+    }
+
+    header nav #card_menu ul li{
+        display: inline-block;
+        width: 75px;
+        /* background: blue; */
+        text-align: center;
+        font-size: 1.2em;
+        margin: 0px -2px;
+    }
+
+    header nav #card_menu ul li a{
+        color:white;
+
+    }
+
+
+
+
+
+
+
+    header #prev_section,
+    header #next_section{
+        position:absolute;
+        width: 50px;
+        height: 50px;
+        background: #29abe2;
+        right: 40px;
+        z-index: 999;
+        border-radius: 50%
+    }
+
+    header #prev_section{
+        top: 115px;
+    }
+
+    header #next_section{
+        top: 190px;
+    }
+
+    header #prev_section img,
+    header #next_section img{
+        width: 40%;
+        top: 7px;
+        left: 14px;
+    }
+}
+
+@media screen and (min-width: 950px){
+    body{
+        background: rgb(35, 238, 194);
+    }
+}
+
