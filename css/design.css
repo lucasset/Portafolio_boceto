@@ -170,123 +170,52 @@ header #next_section img{
     margin: 0px;
 }
 
-/* aboutme */
+/* cripto */
 
-#slider #aboutme{
+#slider #cripto{
     /* height: 400px; */
-    background: #f1f1f1;
+    background: #233D58;
 }
 
-#slider #aboutme .beta{
-    background: none;
+
+
+#slider #cripto .iframe{
     position: relative;
-    /* background: green; */
-    width: 60vw;
-    margin-left: 20vw;
-    min-height: 430px;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 800px;
+    padding-top: 0%;
+    
+   
 }
 
-#slider #aboutme .beta h2{
-    font-size: 1.2em;
-    padding-top: 80px;
-    color: rgb(255, 0, 0);
-    font-weight: lighter;
-}
 
-#slider #aboutme .beta figure,
-#slider #aboutme .beta figure img{
-    width: 110%;
-    margin: 0px;
-}
+/* search */
 
-/* skills */
-
-#slider #skills{
+#slider #search{
     /* height: 300px; */
-    background: #f1f1f1;
+    background: #233D58;
 }
 
-#slider #skills .beta{
-    background: none;
+#slider #search .iframe2{
     position: relative;
-    /* background: green; */
-    width: 60vw;
-    margin-left: 20vw;
-    min-height: 430px;
-}
-
-#slider #skills .beta h2{
-    font-size: 1.2em;
-    padding-top: 80px;
-    color: rgb(255, 0, 0);
-    font-weight: lighter;
-}
-
-#slider #skills .beta figure,
-#slider #skills .beta figure img{
-    width: 110%;
-    margin: 0px;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 800px;
+    padding-top: 0%;
+    
+   
 }
 
 
-/* portfolio */
-
-#slider #portfolio{
-    /* height: 200px; */
-    background: #f1f1f1;
-}
-
-#slider #portfolio .beta{
-    background: none;
-    position: relative;
-    /* background: green; */
-    width: 60vw;
-    margin-left: 20vw;
-    min-height: 430px;
-}
-
-#slider #portfolio .beta h2{
-    font-size: 1.2em;
-    padding-top: 80px;
-    color: rgb(255, 0, 0);
-    font-weight: lighter;
-}
-
-#slider #portfolio .beta figure,
-#slider #portfolio .beta figure img{
-    width: 110%;
-    margin: 0px;
-}
-
-
-/* blog */
-
-#slider #blog{
-    /* height:100px; */
-    background: #f1f1f1;
-}
-
-#slider #blog .beta{
-    background: none;
-    position: relative;
-    /* background: green; */
-    width: 60vw;
-    margin-left: 20vw;
-    min-height: 430px;
-}
-
-#slider #blog .beta h2{
-    font-size: 1.2em;
-    padding-top: 80px;
-    color: rgb(255, 0, 0);
-    font-weight: lighter;
-}
-
-#slider #blog .beta figure,
-#slider #blog .beta figure img{
-    width: 110%;
-    margin: 0px;
-}
 
 
 /*-------------------------------*/
@@ -297,7 +226,7 @@ footer{
     color: white;
     text-align: center;
     z-index: 90;
-    height: 150px;
+    height: 100px;
     position: fixed;
     bottom: 0px;
 }
@@ -327,6 +256,10 @@ footer a img{
 }
 
 @media screen and (min-width: 480px){
+    body{
+        background: #233D58;
+    }
+
     #slider #home .mainlogo{
         width: 270px;
         left: 50%;
@@ -340,13 +273,13 @@ footer a img{
 
 @media screen and (min-width: 600px){
     body{
-        background: orange;
+        background: #233D58;
     }
 }
 
 @media screen and (min-width: 767px){
     body{
-        background: #e3e6e4;
+        background: #233D58;
     }
 
     header{
@@ -468,7 +401,7 @@ footer a img{
 
 @media screen and (min-width: 950px){
     body{
-        background: rgb(35, 238, 194);
+        background: #233D58;
     }
 }
 
